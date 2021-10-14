@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="3" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="16" time="379.169223">
+<testcase classname="Review feature in Retail website" name="Add New Review functionality with valid data" time="34.104626">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User click on Add New button in Review page...........................passed
+When User enter Author"abcd" Product"Ring" Text"xyz" Rating"1" Date Added"2021-10-07 09:19:46" Status"Disabled".passed
+And User click on Save button...............................................passed
+Then User can see Success message...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Add New Review functionality with valid data 2" time="23.901298">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User click on Add New button in Review page...........................passed
+When User enter Author"john" Product"Car" Text"excellent" Rating"5" Date Added"2021-10-07" Status"Enabled".passed
+And User click on Save button...............................................passed
+Then User can see Success message...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Add New Review functionality with invalid data" time="21.63524">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at StepDefination.ReviewDefination.user_enter_Author_Product_Text_Rating_Date_Added_Status(ReviewDefination.java:146)&#13;&#10;&#9;at ✽.User enter Author&quot;$%!@&quot; Product&quot;Iphone&quot; Text&quot;@@$&quot; Rating&quot;2&quot; Date Added&quot;2021-11-06&quot; Status&quot;Enabled&quot;(file:src/test/java/Feature/review.feature:46)&#13;&#10;"><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User click on Add New button in Review page...........................passed
+When User enter Author"$%!@" Product"Iphone" Text"@@$" Rating"2" Date Added"2021-11-06" Status"Enabled".failed
+And User click on Save button...............................................skipped
+Then User stays on same page and can not save details.......................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at StepDefination.ReviewDefination.user_enter_Author_Product_Text_Rating_Date_Added_Status(ReviewDefination.java:146)
+	at ✽.User enter Author"$%!@" Product"Iphone" Text"@@$" Rating"2" Date Added"2021-11-06" Status"Enabled"(file:src/test/java/Feature/review.feature:46)
+]]></failure>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Add New Review functionality with invalid data 2" time="27.42988">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User click on Add New button in Review page...........................passed
+When User enter Author"a" Product"Electronic" Text"m" Rating"3" Date Added"22-10-2021" Status"Enabled".passed
+And User click on Save button...............................................passed
+Then User stays on same page and can not save details.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Add New Review functionality with invalid data 3" time="26.895219">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at StepDefination.ReviewDefination.user_stays_on_same_page_and_can_not_save_details(ReviewDefination.java:183)&#13;&#10;&#9;at ✽.User stays on same page and can not save details(file:src/test/java/Feature/review.feature:48)&#13;&#10;"><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User click on Add New button in Review page...........................passed
+When User enter Author"123" Product"Television" Text"564" Rating"4" Date Added"01-01-2021" Status"Disabled".passed
+And User click on Save button...............................................passed
+Then User stays on same page and can not save details.......................failed
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at StepDefination.ReviewDefination.user_stays_on_same_page_and_can_not_save_details(ReviewDefination.java:183)
+	at ✽.User stays on same page and can not save details(file:src/test/java/Feature/review.feature:48)
+]]></failure>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Add New Review functionality with invalid data 4" time="25.767553">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:64)&#13;&#10;&#9;at StepDefination.ReviewDefination.user_stays_on_same_page_and_can_not_save_details(ReviewDefination.java:183)&#13;&#10;&#9;at ✽.User stays on same page and can not save details(file:src/test/java/Feature/review.feature:48)&#13;&#10;"><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User click on Add New button in Review page...........................passed
+When User enter Author"we56" Product"Car" Text"tu89" Rating"5" Date Added"08/09/2021" Status"Enabled".passed
+And User click on Save button...............................................passed
+Then User stays on same page and can not save details.......................failed
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.fail(Assert.java:64)
+	at StepDefination.ReviewDefination.user_stays_on_same_page_and_can_not_save_details(ReviewDefination.java:183)
+	at ✽.User stays on same page and can not save details(file:src/test/java/Feature/review.feature:48)
+]]></failure>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Filter functionality" time="20.452623">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User enter Product "Kitchen" Author"joe" Status"Disabled" Date Added"2021-07-05" in Filter section.passed
+When User click on filter button............................................passed
+Then User can see filtered result record of "Kitchen" Author"joe" Status"Disabled" Date Added Table"05/07/2021" in Review list table.passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Filter functionality 2" time="18.440003">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User enter Product "Car" Author"" Status"" Date Added"" in Filter section.passed
+When User click on filter button............................................passed
+Then User can see filtered result record of "Car" Author"" Status"" Date Added Table"" in Review list table.passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Filter functionality 3" time="16.948605">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User enter Product "" Author"abcd" Status"" Date Added"" in Filter section.passed
+When User click on filter button............................................passed
+Then User can see filtered result record of "" Author"abcd" Status"" Date Added Table"" in Review list table.passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Filter functionality 4" time="43.158139">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User enter Product "" Author"" Status"Enabled" Date Added"" in Filter section.passed
+When User click on filter button............................................passed
+Then User can see filtered result record of "" Author"" Status"Enabled" Date Added Table"" in Review list table.passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Filter functionality 5" time="18.817635">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User enter Product "" Author"" Status"" Date Added"2021-09-22" in Filter section.passed
+When User click on filter button............................................passed
+Then User can see filtered result record of "" Author"" Status"" Date Added Table"22/09/2021" in Review list table.passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Edit functionality" time="23.199496">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User click on Edit button in Review page..............................passed
+When User clear previous data record........................................passed
+And User enter new data for Author"Rose" Product"Iphone" Text"Nice product" Rating"4" Date Added"2021-11-06" Status"Enabled".passed
+And User click on Save button...............................................passed
+Then User can see Success message...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Delete functionality" time="17.086061">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User click on checkbox of a review in Review page.....................passed
+When User click on Delete button............................................passed
+And User click on Ok in alert box...........................................passed
+Then User can see Success message...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Order functionality" time="20.704964">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User can see Review list table........................................passed
+When User click on Author table header in Review page.......................passed
+And User can see ordered Author"$%!@" column................................passed
+When User click on Product table header in Review page......................passed
+And User can see ordered Product"Television" column.........................passed
+When User click on Rating table header in Review page.......................passed
+And User can see ordered Rating"1" column...................................passed
+When User click on Date Added table header in Review page...................passed
+And User can see ordered Date Added"06/11/2021" column......................passed
+When User click on Status table header in Review page.......................passed
+Then User can see ordered Status"Disabled" column...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Pagination functionality" time="18.93464">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User is on the first page "Showing 1 to 25" of Review list............passed
+When User click on button for second page...................................passed
+And User can see second page "Showing 26 to 50" of Review list..............passed
+When User click on button for third page....................................passed
+Then User can see third page "Showing 51 to" of Review list.................passed
+]]></system-out>
+</testcase>
+<testcase classname="Review feature in Retail website" name="Cancel functionality" time="21.693241">
+<system-out><![CDATA[Given User is on the website................................................passed
+When User enter "Username" & "Password".....................................passed
+And User click on Login button..............................................passed
+And User can see the dashboard..............................................passed
+When User click on Menu icon................................................passed
+And User click on Catalog...................................................passed
+And User click on Reviews...................................................passed
+Then User can see Reviews Page..............................................passed
+Given User is on the Review list page.......................................passed
+When User click on Add New button in Review page............................passed
+And User can see Add New Review page........................................passed
+When User click on Cancel button............................................passed
+And User is on the Review list page.........................................passed
+When User click on Edit button in Review page...............................passed
+And Use can see edit review page............................................passed
+When User click on Cancel button............................................passed
+Then User can see the Review list page again................................passed
+]]></system-out>
+</testcase>
+</testsuite>

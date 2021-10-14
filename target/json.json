@@ -1,0 +1,3750 @@
+[
+  {
+    "line": 19,
+    "elements": [
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15033776,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1364718653,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2636391628,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14198197,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1852444883,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1133948587,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2130969120,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8257981,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:08:28.497Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14866717341,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 40,
+        "name": "Add New Review functionality with valid data",
+        "description": "",
+        "id": "review-feature-in-retail-website;add-new-review-functionality-with-valid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 39847,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 974328895,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click on Add New button in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Add_New_button_in_Review_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7874252643,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enter Author\"abcd\" Product\"Ring\" Text\"xyz\" Rating\"1\" Date Added\"2021-10-07 09:19:46\" Status\"Disabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcd\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Ring\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"xyz\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"2021-10-07 09:19:46\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"Disabled\"",
+                  "offset": 96
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Author_Product_Text_Rating_Date_Added_Status(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1146370576,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on Save button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82690901,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User can see Success message",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newReviewValid"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 15233011,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 663349306,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1886463323,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16727272,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1279035003,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1131926655,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1815916085,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30141209,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:09:02.601Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7766975562,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "Add New Review functionality with valid data",
+        "description": "",
+        "id": "review-feature-in-retail-website;add-new-review-functionality-with-valid-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 45885,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 715135266,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User click on Add New button in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Add_New_button_in_Review_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6997841623,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User enter Author\"john\" Product\"Car\" Text\"excellent\" Rating\"5\" Date Added\"2021-10-07\" Status\"Enabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"john\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Car\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"excellent\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"2021-10-07\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"Enabled\"",
+                  "offset": 92
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Author_Product_Text_Rating_Date_Added_Status(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1464046266,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User click on Save button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117744155,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User can see Success message",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newReviewValid"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12390595,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 672139184,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2007095778,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31846176,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1104443117,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1131678517,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1960077569,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5049697,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:09:26.507Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9175848272,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 52,
+        "name": "Add New Review functionality with invalid data",
+        "description": "",
+        "id": "review-feature-in-retail-website;add-new-review-functionality-with-invalid-data;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 62185,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1029236200,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User click on Add New button in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Add_New_button_in_Review_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat StepDefination.ReviewDefination.user_enter_Author_Product_Text_Rating_Date_Added_Status(ReviewDefination.java:146)\r\n\tat ✽.User enter Author\"$%!@\" Product\"Iphone\" Text\"@@$\" Rating\"2\" Date Added\"2021-11-06\" Status\"Enabled\"(file:src/test/java/Feature/review.feature:46)\r\n",
+              "duration": 4504191478,
+              "status": "failed"
+            },
+            "line": 46,
+            "name": "User enter Author\"$%!@\" Product\"Iphone\" Text\"@@$\" Rating\"2\" Date Added\"2021-11-06\" Status\"Enabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$%!@\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Iphone\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"@@$\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"2\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"2021-11-06\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"Enabled\"",
+                  "offset": 89
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Author_Product_Text_Rating_Date_Added_Status(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30187,
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "User click on Save button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15698,
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "User stays on same page and can not save details",
+            "match": {
+              "location": "ReviewDefination.user_stays_on_same_page_and_can_not_save_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newReviewInvalid"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9086315,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1245770033,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1933631260,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9298832,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1219850792,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1142030879,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2586028085,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 159331706,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:09:48.173Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9333034883,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "Add New Review functionality with invalid data",
+        "description": "",
+        "id": "review-feature-in-retail-website;add-new-review-functionality-with-invalid-data;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 38036,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 944449710,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User click on Add New button in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Add_New_button_in_Review_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7614241546,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User enter Author\"a\" Product\"Electronic\" Text\"m\" Rating\"3\" Date Added\"22-10-2021\" Status\"Enabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"a\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Electronic\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"m\"",
+                  "offset": 45
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"22-10-2021\"",
+                  "offset": 69
+                },
+                {
+                  "val": "\"Enabled\"",
+                  "offset": 88
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Author_Product_Text_Rating_Date_Added_Status(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1108173639,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User click on Save button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124305018,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User stays on same page and can not save details",
+            "match": {
+              "location": "ReviewDefination.user_stays_on_same_page_and_can_not_save_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newReviewInvalid"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13292584,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 738230203,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1848964311,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10677779,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1279668328,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1145198109,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1919806779,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5050905,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:10:15.610Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9532313774,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Add New Review functionality with invalid data",
+        "description": "",
+        "id": "review-feature-in-retail-website;add-new-review-functionality-with-invalid-data;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 71241,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1164307143,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User click on Add New button in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Add_New_button_in_Review_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7458983287,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User enter Author\"123\" Product\"Television\" Text\"564\" Rating\"4\" Date Added\"01-01-2021\" Status\"Disabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"123\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Television\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"564\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 59
+                },
+                {
+                  "val": "\"01-01-2021\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"Disabled\"",
+                  "offset": 92
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Author_Product_Text_Rating_Date_Added_Status(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1617519865,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User click on Save button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat StepDefination.ReviewDefination.user_stays_on_same_page_and_can_not_save_details(ReviewDefination.java:183)\r\n\tat ✽.User stays on same page and can not save details(file:src/test/java/Feature/review.feature:48)\r\n",
+              "duration": 160506588,
+              "status": "failed"
+            },
+            "line": 48,
+            "name": "User stays on same page and can not save details",
+            "match": {
+              "location": "ReviewDefination.user_stays_on_same_page_and_can_not_save_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newReviewInvalid"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12801139,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 585144810,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1842381110,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11286954,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1102226781,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1098984688,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1949896066,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8315941,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:10:42.510Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8272993962,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Add New Review functionality with invalid data",
+        "description": "",
+        "id": "review-feature-in-retail-website;add-new-review-functionality-with-invalid-data;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 41055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1192903981,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User click on Add New button in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Add_New_button_in_Review_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7691232520,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User enter Author\"we56\" Product\"Car\" Text\"tu89\" Rating\"5\" Date Added\"08/09/2021\" Status\"Enabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"we56\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"Car\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"tu89\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"5\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"08/09/2021\"",
+                  "offset": 68
+                },
+                {
+                  "val": "\"Enabled\"",
+                  "offset": 87
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Author_Product_Text_Rating_Date_Added_Status(String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1748688220,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User click on Save button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.fail(Assert.java:64)\r\n\tat StepDefination.ReviewDefination.user_stays_on_same_page_and_can_not_save_details(ReviewDefination.java:183)\r\n\tat ✽.User stays on same page and can not save details(file:src/test/java/Feature/review.feature:48)\r\n",
+              "duration": 250059016,
+              "status": "failed"
+            },
+            "line": 48,
+            "name": "User stays on same page and can not save details",
+            "match": {
+              "location": "ReviewDefination.user_stays_on_same_page_and_can_not_save_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@newReviewInvalid"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12088120,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 792264497,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1917806582,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13323376,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1115045429,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1111547348,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2110326582,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6844018,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:11:08.282Z",
+        "before": [
+          {
+            "result": {
+              "duration": 10004426636,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 65,
+        "name": "Filter functionality",
+        "description": "",
+        "id": "review-feature-in-retail-website;filter-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 31998,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1936188710,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User enter Product \"Kitchen\" Author\"joe\" Status\"Disabled\" Date Added\"2021-07-05\" in Filter section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kitchen\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"joe\"",
+                  "offset": 35
+                },
+                {
+                  "val": "\"Disabled\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"2021-07-05\"",
+                  "offset": 68
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Product_Author_Status_Date_Added_in_Filter_section(String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1270555449,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User click on filter button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_filter_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159704215,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User can see filtered result record of \"Kitchen\" Author\"joe\" Status\"Disabled\" Date Added Table\"05/07/2021\" in Review list table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kitchen\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"joe\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"Disabled\"",
+                  "offset": 67
+                },
+                {
+                  "val": "\"05/07/2021\"",
+                  "offset": 94
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_filtered_result_record_of_Author_Status_Date_Added_Table_in_Review_list_table(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11422797,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 552050096,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2250019773,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16106625,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1106265815,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1233887186,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1775860227,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9476936,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:11:28.737Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9068065255,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 66,
+        "name": "Filter functionality",
+        "description": "",
+        "id": "review-feature-in-retail-website;filter-functionality;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 36829,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1078573986,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User enter Product \"Car\" Author\"\" Status\"\" Date Added\"\" in Filter section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Car\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 31
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 40
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 53
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Product_Author_Status_Date_Added_in_Filter_section(String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 966469384,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User click on filter button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_filter_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371172050,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User can see filtered result record of \"Car\" Author\"\" Status\"\" Date Added Table\"\" in Review list table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Car\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 60
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 79
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_filtered_result_record_of_Author_Status_Date_Added_Table_in_Review_list_table(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16302842,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 481605495,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2017615981,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15202824,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1113055496,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1137938716,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1864961055,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10739964,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:11:47.178Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8499807708,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 67,
+        "name": "Filter functionality",
+        "description": "",
+        "id": "review-feature-in-retail-website;filter-functionality;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 41055,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 750078638,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User enter Product \"\" Author\"abcd\" Status\"\" Date Added\"\" in Filter section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"abcd\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 54
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Product_Author_Status_Date_Added_in_Filter_section(String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 709155806,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User click on filter button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_filter_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 331436175,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User can see filtered result record of \"\" Author\"abcd\" Status\"\" Date Added Table\"\" in Review list table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"abcd\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 80
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_filtered_result_record_of_Author_Status_Date_Added_Table_in_Review_list_table(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 35386518,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 477784412,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2382564056,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33632649,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1433416629,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1114936755,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2046527367,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7640957,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:12:04.128Z",
+        "before": [
+          {
+            "result": {
+              "duration": 33545269471,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 68,
+        "name": "Filter functionality",
+        "description": "",
+        "id": "review-feature-in-retail-website;filter-functionality;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 33810,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 952481289,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User enter Product \"\" Author\"\" Status\"Enabled\" Date Added\"\" in Filter section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"Enabled\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 57
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Product_Author_Status_Date_Added_in_Filter_section(String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 869527760,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User click on filter button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_filter_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 258145535,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User can see filtered result record of \"\" Author\"\" Status\"Enabled\" Date Added Table\"\" in Review list table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"Enabled\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 83
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_filtered_result_record_of_Author_Status_Date_Added_Table_in_Review_list_table(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18298813,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 514510030,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2126535241,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9079674,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1083248759,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1105454385,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2274437509,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6799945,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:12:47.284Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9157362300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 69,
+        "name": "Filter functionality",
+        "description": "",
+        "id": "review-feature-in-retail-website;filter-functionality;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 31998,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1241954385,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User enter Product \"\" Author\"\" Status\"\" Date Added\"2021-09-22\" in Filter section",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 19
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"2021-09-22\"",
+                  "offset": 50
+                }
+              ],
+              "location": "ReviewDefination.user_enter_Product_Author_Status_Date_Added_in_Filter_section(String,String,String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1047417887,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "User click on filter button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_filter_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231920195,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "User can see filtered result record of \"\" Author\"\" Status\"\" Date Added Table\"22/09/2021\" in Review list table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 48
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"22/09/2021\"",
+                  "offset": 76
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_filtered_result_record_of_Author_Status_Date_Added_Table_in_Review_list_table(String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@filter"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20275463,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 500314247,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2749657829,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10357192,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1198465650,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1138851574,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1944615136,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13003393,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:13:06.107Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8734686238,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 81,
+        "name": "Edit functionality",
+        "description": "",
+        "id": "review-feature-in-retail-website;edit-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 33810,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 956889812,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "User click on Edit button in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Edit_button_in_Review_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 562324575,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "User clear previous data record",
+            "match": {
+              "location": "ReviewDefination.user_clear_previous_data_record()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3617869431,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "User enter new data for Author\"Rose\" Product\"Iphone\" Text\"Nice product\" Rating\"4\" Date Added\"2021-11-06\" Status\"Enabled\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rose\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Iphone\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"Nice product\"",
+                  "offset": 57
+                },
+                {
+                  "val": "\"4\"",
+                  "offset": 78
+                },
+                {
+                  "val": "\"2021-11-06\"",
+                  "offset": 92
+                },
+                {
+                  "val": "\"Enabled\"",
+                  "offset": 111
+                }
+              ],
+              "location": "ReviewDefination.user_enter_new_data_for_Author_Product_Text_Rating_Date_Added_Status(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1396328766,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "User click on Save button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 355148137,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "User can see Success message",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@editReview"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7515379,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 426541821,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1898184367,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13057729,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1098601311,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1080006061,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1813901398,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7045064,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:13:29.308Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8744477724,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 84,
+        "name": "Delete functionality",
+        "description": "",
+        "id": "review-feature-in-retail-website;delete-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 36828,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 170689298,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "User click on checkbox of a review in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_checkbox_of_a_review_in_Review_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 288233614,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "User click on Delete button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Delete_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65648476,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "User click on Ok in alert box",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Ok_in_alert_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1471460819,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "User can see Success message",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Success_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@deleteReview"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 14759678,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 667678740,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2257181359,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6198617,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1164109116,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1155834834,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1763328356,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10835355,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:13:46.401Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8176328851,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 106,
+        "name": "Order functionality",
+        "description": "",
+        "id": "review-feature-in-retail-website;order-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 40451,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 97904593,
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "User can see Review list table",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Review_list_table()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 910980676,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "User click on Author table header in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Author_table_header_in_Review_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 126366796,
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "User can see ordered Author\"$%!@\" column",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$%!@\"",
+                  "offset": 27
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_ordered_Author_column(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1100824892,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "User click on Product table header in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Product_table_header_in_Review_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49550303,
+              "status": "passed"
+            },
+            "line": 96,
+            "name": "User can see ordered Product\"Television\" column",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Television\"",
+                  "offset": 28
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_ordered_Product_column(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 904566522,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "User click on Rating table header in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Rating_table_header_in_Review_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 164898810,
+              "status": "passed"
+            },
+            "line": 98,
+            "name": "User can see ordered Rating\"1\" column",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 27
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_ordered_Rating_column(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1002781439,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "User click on Date Added table header in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Date_Added_table_header_in_Review_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148894820,
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "User can see ordered Date Added\"06/11/2021\" column",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"06/11/2021\"",
+                  "offset": 31
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_ordered_Date_Added_column(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 893146744,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "User click on Status table header in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Status_table_header_in_Review_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87749051,
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "User can see ordered Status\"Disabled\" column",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Disabled\"",
+                  "offset": 27
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_ordered_Status_column(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@orderReview"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10829318,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 453970418,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2270054343,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14643759,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1486757828,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1131238993,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084587859,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4484595,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:14:07.113Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9328575646,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 118,
+        "name": "Pagination functionality",
+        "description": "",
+        "id": "review-feature-in-retail-website;pagination-functionality;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 31395,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 23670304,
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "User is on the first page \"Showing 1 to 25\" of Review list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Showing 1 to 25\"",
+                  "offset": 26
+                }
+              ],
+              "location": "ReviewDefination.user_is_on_the_first_page_of_Review_list(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 883044936,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "User click on button for second page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_button_for_second_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 142073745,
+              "status": "passed"
+            },
+            "line": 112,
+            "name": "User can see second page \"Showing 26 to 50\" of Review list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Showing 26 to 50\"",
+                  "offset": 25
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_second_page_of_Review_list(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 989177927,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "User click on button for third page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_button_for_third_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 110756446,
+              "status": "passed"
+            },
+            "line": 114,
+            "name": "User can see third page \"Showing 51 to\" of Review list",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Showing 51 to\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_can_see_third_page_of_Review_list(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@pagination"
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login Functionality",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11888885,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User is on the website",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 618051762,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter \"Username\" \u0026 \"Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Username\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Password\"",
+                  "offset": 24
+                }
+              ],
+              "location": "ReviewDefination.user_enter(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2692149605,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User click on Login button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11243485,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User can see the dashboard",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087569136,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User click on Menu icon",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Menu_icon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1156953567,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click on Catalog",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Catalog()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1884995626,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on Reviews",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Reviews()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14105222,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User can see Reviews Page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Reviews_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:14:26.051Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9893326660,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.initialization()"
+            }
+          }
+        ],
+        "line": 121,
+        "name": "Cancel functionality",
+        "description": "",
+        "id": "review-feature-in-retail-website;cancel-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 370697,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.closedriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 54342806,
+              "status": "passed"
+            },
+            "line": 122,
+            "name": "User is on the Review list page",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_Review_list_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 886610032,
+              "status": "passed"
+            },
+            "line": 123,
+            "name": "User click on Add New button in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Add_New_button_in_Review_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82092593,
+              "status": "passed"
+            },
+            "line": 124,
+            "name": "User can see Add New Review page",
+            "match": {
+              "location": "ReviewDefination.user_can_see_Add_New_Review_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001504525,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "User click on Cancel button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Cancel_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 200886655,
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "User is on the Review list page",
+            "match": {
+              "location": "ReviewDefination.user_is_on_the_Review_list_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 939227947,
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "User click on Edit button in Review page",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Edit_button_in_Review_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 92851273,
+              "status": "passed"
+            },
+            "line": 128,
+            "name": "Use can see edit review page",
+            "match": {
+              "location": "ReviewDefination.use_can_see_edit_review_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 876775680,
+              "status": "passed"
+            },
+            "line": 129,
+            "name": "User click on Cancel button",
+            "match": {
+              "location": "ReviewDefination.user_click_on_Cancel_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187586222,
+              "status": "passed"
+            },
+            "line": 130,
+            "name": "User can see the Review list page again",
+            "match": {
+              "location": "ReviewDefination.user_can_see_the_Review_list_page_again()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@cancelButton"
+          }
+        ]
+      }
+    ],
+    "name": "Review feature in Retail website",
+    "description": "",
+    "id": "review-feature-in-retail-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Feature/review.feature",
+    "tags": []
+  }
+]
