@@ -12,7 +12,7 @@ import cucumber.api.junit.Cucumber;
 			,dryRun = false
 			,monochrome = true
 			,plugin = {"pretty","html:target/cucumber-pretty","junit:target/report.xml", "json:target/json.json"}
-			//,tags = {"@cancelButton"}
+			//,tags = {""}
 )
 
 public class TestRunner {

@@ -184,7 +184,7 @@ public class ReviewDefination {
 		}
 	}
 
-//Filter functionality
+//Filter functionality by valid data
 	@Given("User enter Product {string} Author{string} Status{string} Date Added{string} in Filter section")
 	public void user_enter_Product_Author_Status_Date_Added_in_Filter_section(String string, String string2, String string3, String string4) {
 		try{
@@ -226,7 +226,19 @@ public class ReviewDefination {
 	    }
 	}
 
-//Edit Review Functionality
+//Filter Functionality by invalid data
+	@Then("User can see Message {string}")
+	public void user_can_see_Message(String string) {
+		try{
+			driver.findElement(By.xpath("//div[@class='table-responsive']/table/tbody/tr/td[contains(text(),'"+string+"')]"));
+		}
+		catch(Exception e){
+			System.out.println("User can not see message "+e);
+			Assert.fail();
+	    }
+	}
+
+//Edit Review Functionality valid
 	@Given("User click on Edit button in Review page")
 	public void user_click_on_Edit_button_in_Review_page() {
 		try{
@@ -271,6 +283,20 @@ public class ReviewDefination {
 			Assert.fail();
 		}
 	}
+
+//edit review with invalid data
+	@Then("User stays on edit page and can not save details")
+	public void user_stays_on_edit_page_and_can_not_save_details() {
+		try{		
+			driver.findElement(By.xpath("//h3[@class='panel-title'][contains(text(),' Edit Review')]"));
+		}
+		catch(Exception e){
+			System.out.println("User can not see Add New Review page "+e);
+			Assert.fail();
+		}
+	}
+
+
 	
 //Delete Functionality	
 	@Given("User click on checkbox of a review in Review page")

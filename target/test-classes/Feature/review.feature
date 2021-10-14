@@ -36,9 +36,9 @@ Feature: Review feature in Retail website
     Then User can see Success message
 
     Examples: 
-      | Author | Product | Text      | Rating | Date Added          | Status   |
-      | abcd   | Ring    | xyz       |      1 | 2021-10-07 09:19:46 | Disabled |
-      | john   | Car     | excellent |      5 | 2021-10-07          | Enabled  |
+      | Author | Product         | Text | Rating | Date Added          | Status   |
+      | abcd   | Ring            | xyz  |      1 | 2021-10-07 09:19:46 | Disabled |
+      | elle   | Engagement Ring | good |      4 | 2021-09-01          | Disabled |
 
   @newReviewInvalid
   Scenario Outline: Add New Review functionality with invalid data
@@ -48,28 +48,40 @@ Feature: Review feature in Retail website
     Then User stays on same page and can not save details
 
     Examples: 
-      | Author | Product    | Text | Rating | Date Added | Status   |
-      | $%!@   | Iphone     | @@$  |      2 | 2021-11-06 | Enabled  |
-      | a      | Electronic | m    |      3 | 22-10-2021 | Enabled  |
-      |    123 | Television |  564 |      4 | 01-01-2021 | Disabled |
-      | we56   | Car        | tu89 |      5 | 08/09/2021 | Enabled  |
+      | Author | Product         | Text | Rating | Date Added | Status   |
+      | $%!@   | Iphone          | @@$  |      2 | 2021-11-06 | Enabled  |
+      | a      | Electronic      | m    |      3 | 22-10-2021 | Enabled  |
+      |    123 | Television      |  564 |      4 | 01-01-2021 | Disabled |
+      | we56   | Engagement Ring | tu89 |      5 | 08/09/2021 | Enabled  |
 
-  @filter
-  Scenario Outline: Filter functionality
+  @filterValid
+  Scenario Outline: Filter functionality by valid data
     Given User enter Product "<Product Name>" Author"<Author>" Status"<Status>" Date Added"<Date Added>" in Filter section
     When User click on filter button
     Then User can see filtered result record of "<Product Name>" Author"<Author>" Status"<Status>" Date Added Table"<Date Added Table>" in Review list table
 
     Examples: 
-      | Product Name | Author | Status   | Date Added | Date Added Table |
-      | Kitchen      | joe    | Disabled | 2021-07-05 | 05/07/2021       |
-      | Car          |        |          |            |                  |
-      |              | abcd   |          |            |                  |
-      |              |        | Enabled  |            |                  |
-      |              |        |          | 2021-09-22 | 22/09/2021       |
+      | Product Name    | Author | Status   | Date Added | Date Added Table |
+      | Engagement Ring |        |          |            |                  |
+      |                 | elle   |          |            |                  |
+      |                 |        | Disabled |            |                  |
+      |                 |        |          | 2021-09-01 | 01/09/2021       |
+      | Engagement Ring | elle   | Disabled | 2021-09-01 | 01/09/2021       |
 
-  @editReview
-  Scenario Outline: Edit functionality
+  @filterInvalid
+  Scenario Outline: Filter functionality by invalid data
+    Given User enter Product "<Product Name>" Author"<Author>" Status"<Status>" Date Added"<Date Added>" in Filter section
+    When User click on filter button
+    Then User can see Message "<message>"
+
+    Examples: 
+      | Product Name | Author | Status | Date Added | message     |
+      | Carss        |        |        |            | No results! |
+      |              | qwe    |        |            | No results! |
+      |              |        |        | 2019/09/22 | No results! |
+
+  @editReviewValid
+  Scenario Outline: Edit functionality with valid data
     Given User click on Edit button in Review page
     When User clear previous data record
     And User enter new data for Author"<Author>" Product"<Product>" Text"<Text>" Rating"<Rating>" Date Added"<Date Added>" Status"<Status>"
@@ -79,6 +91,21 @@ Feature: Review feature in Retail website
     Examples: 
       | Author | Product | Text         | Rating | Date Added | Status  |
       | Rose   | Iphone  | Nice product |      4 | 2021-11-06 | Enabled |
+
+  @editReviewInvalid
+  Scenario Outline: Edit functionality with invalid data
+    Given User click on Edit button in Review page
+    When User clear previous data record
+    And User enter new data for Author"<Author>" Product"<Product>" Text"<Text>" Rating"<Rating>" Date Added"<Date Added>" Status"<Status>"
+    And User click on Save button
+    Then User stays on edit page and can not save details
+
+    Examples: 
+      | Author  | Product         | Text | Rating | Date Added | Status   |
+      | $%!@    | Television      | @@@  |      1 | 06/11/2021 | Disabled |
+      | a       | Electronic      | m    |      3 | 22-10-2021 | Enabled  |
+      |    8797 | Television      |  564 |      4 | 01-01-2021 | Disabled |
+      | wuyuq56 | Engagement Ring | tu89 |      5 | 08/09/2021 | Enabled  |
 
   @deleteReview
   Scenario: Delete functionality

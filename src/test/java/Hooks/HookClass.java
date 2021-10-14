@@ -19,6 +19,6 @@ public class HookClass {
 	}
 	@After
 	public void closedriver(){
-		//driver.quit();
+		driver.quit();
 	}
 }
